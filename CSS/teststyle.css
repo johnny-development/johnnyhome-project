@@ -1,0 +1,80 @@
+body {
+  background: #2d3142;
+  font-family: "Raleway", sans-serif;
+}
+
+/* Heading */
+
+/* Button Styles */
+
+.button {
+  display: inline-flex;
+  height: 40px;
+  width: 150px;
+  border: 2px solid #bfc0c0;
+  margin: 20px 20px 20px 20px;
+  color: #bfc0c0;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 0.8em;
+  letter-spacing: 1.5px;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+a {
+  color: #bfc0c0;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+/* Seventh Button */
+
+#button-7 {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+#button-7 a {
+  position: relative;
+  left: 0;
+  transition: all 0.35s ease-Out;
+}
+
+#dub-arrow {
+  width: 100%;
+  height: 100%;
+  background: #bfc0c0;
+  left: -200px;
+  position: absolute;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.35s ease-Out;
+  bottom: 0;
+}
+
+#button-7 img {
+  width: 20px;
+  height: auto;
+}
+
+#button-7:hover #dub-arrow {
+  left: 0;
+}
+
+#button-7:hover a {
+  left: 150px;
+}
+
+@media screen and (min-width: 1000px) {
+  h1 {
+    font-size: 2.2em;
+  }
+  #container {
+    width: 50%;
+  }
+}
